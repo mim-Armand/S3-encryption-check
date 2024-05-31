@@ -1,0 +1,30 @@
+{
+  "name": "s3-encryption-check",
+  "version": "1.0.0",
+  "description": "Verify all objects in S3 are encrypted at rest after enabling default bucket encryption!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mim-Armand/S3-encryption-check.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "encryption",
+    "security"
+  ],
+  "author": "mim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mim-Armand/S3-encryption-check/issues"
+  },
+  "homepage": "https://github.com/mim-Armand/S3-encryption-check#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.587.0",
+    "@aws-sdk/credential-providers": "^3.587.0"
+  },
+  "type": "module"
+}
