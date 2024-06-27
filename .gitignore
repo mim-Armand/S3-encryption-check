@@ -131,3 +131,7 @@ dist
 
 # Intellijerk
 .idea
+
+# generated files:
+*.csv.gz
+unencrypted.json
